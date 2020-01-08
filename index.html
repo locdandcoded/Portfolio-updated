@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meet Ebony Brown</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body class="body">
+  <div class="container">   
+   
+     <div class="navbar ebony">       
+         <h1 class="ebony">Ebony Brown</h1>       
+      </div>     
+ 
+      <div id="bio-card" class="card-transparent border">
+        <div class="card-header">
+          <span class="navbar-text">
+            Full-Stack Developer
+        </span>
+
+        <ul class="nav justify-content-end float-right">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>         
+      </nav>
+      </div>
+
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="float-left responsive" src="headshot.jpg"  alt="Ebony Headshot">
+            </div>
+            <!-- the column below contains about me section including three buttons that lead to resume, projects, and skill all with dropdowns and or href -->
+            <div class="col-lg-8">
+            
+              <div class="row">                                
+                  <span><h1 class="hello" >Hello,</h1> </span>          
+              </div>
+              <div class="row">
+                <span><h3> a little bit about me</h3></span>
+              </div>
+              <!-- this row contains three buttons -->
+              <div id="circles" class="row">
+                <div  class="col">
+                  <div onclick="show()" id="resume" class="circle-1 swing text-center">resume</div>
+                </div>
+
+                <div class="col">
+                  <div onclick="project()"class="circle-2 swing text-center">projects</div>
+                  
+                </div>
+
+                <div class="col">
+                  <div class="container">
+                  <div onclick="skills()" class="circle swing text-center" data-toggle="popover" data-placement="bottom" data-content="Top">skills</div>
+                </div>
+              </div>
+            </div>
+                <div class="row">
+                  
+                  <div class="col">
+                    <p>I am a Northern Illinois native and Nashville Tennessee local studying to become a Full-Stack Developer at Vanderbilt University.
+                       I am transitioning into a field I am quite passionate in, which is the software technology sector. I am an innovative thinker, 
+                       self-motivated, team player with skills in communication, customer service, and problem solving. 
+                       I find joy in helping and advising others, when in need of guidance. I also enjoy learning and applying new skills to prior talents.
+                       I understand when to take leadership roles, and respect when it is time to follow. I work well under pressure, 
+                       while still conveying a calm and confident exterior. 
+                       My overall goal for post Vanderbilt University bootcamp is to become an all star Developer and teammate at a great company. </p>
+                  </div>
+                </div>
+              
+              
+            </div>
+          </div>
+        
+          
+
+
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+</div> 
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
